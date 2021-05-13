@@ -1,0 +1,65 @@
+/*
+filename: Karthick Senthil
+Author: Karthick Senthil
+created: 25/03/2019
+last Modified: 25/03/2019
+description: Assignment 1 styles. For index page;
+*/
+
+#banner {
+    background-image: url("images/brickwall-background.jpg");
+    background-size: cover;
+}
+
+
+
+#banner h1 {
+    text-align: center;
+    max-width: 600px;
+    font-size: 55px;
+    font-weight: bold;
+    width: 100%;
+    margin: auto;
+    padding-top: 30px;
+    vertical-align: middle;
+}
+
+#banner p {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+#textbanner {
+    background-color: #b0ebbd;
+    
+    clear: both;
+}
+
+#textbanner h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+}
+
+.left-half, .right-half {
+    width: 50%;
+    margin: 0;
+    float:left;
+    margin: 30px 0;
+    text-align: center;
+}
+
+@media only screen and (max-width:800px) {
+    .left-half, .right-half {
+        width: 80%;
+        margin: 0;
+        float:none;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .right-half img {
+        width: 80%;
+    }
+}

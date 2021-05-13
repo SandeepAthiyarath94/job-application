@@ -1,0 +1,88 @@
+/*
+filename: Karthick Senthil
+Author: Karthick Senthil
+created: 25/03/2019
+last Modified: 25/03/2019
+description: Assignment 1 styles. For about page;
+*/
+
+ dt,  dd {
+    display: inline;
+    font-size: 20px;
+ }
+
+dd {
+    margin-left: 0px;
+    width: 50%;
+    float:left;
+    margin:10px;
+    padding:10px;
+    border: 2px solid #b0ebbd;
+    border-radius: 10px;
+}
+
+dt {
+    font-weight: bold;
+    width: 30%;
+    float: left;
+    margin:10px;
+    padding:10px;
+    border: 2px solid #0f3d19;
+    border-radius: 10px;
+}
+
+figure {
+    float:right;
+    
+}
+
+figure img {
+    border: 5px solid #b0ebbd;
+    border-radius : 10px;
+}
+
+dl {
+    float:left;
+    margin: 0 30px;
+    width: 60%;
+}
+
+table {
+    clear: both;
+    margin: 0px auto;
+    padding: 50px 0;
+    border-collapse: collapse;
+    width:100%;
+}
+
+ th, td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+td {
+    background-color: #b0ebbd;
+}
+
+th {
+    background-color: #0f3d19;
+    color: #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    dl {
+        width: auto;
+    }
+
+    figure {
+        float: none;
+    }
+
+    figure img {
+        width: 85%;
+    }
+
+    dt, dd {
+        width: 85%;
+    }
+}

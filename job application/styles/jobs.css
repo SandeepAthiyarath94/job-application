@@ -1,0 +1,50 @@
+/*
+filename: Karthick Senthil
+Author: Karthick Senthil
+created: 28/03/2019
+last Modified: 28/03/2019
+description: Assignment 1 styles. For jobs page
+*/
+
+h1 {
+    font: normal small-caps normal 50px 'Germania One', cursive;
+    color: #b0ebbd;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside {
+    width: 25%;
+    float:right;
+    border: 2px solid #b0ebbd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.container > section {
+    width: 70%;
+}
+
+footer {
+    font-size: 10px;
+    text-align: center;
+}
+
+footer a {
+    float: none;
+}
+
+@media only screen and (max-width: 475px) {
+    aside {
+        float: none;
+        width: auto;
+    }
+
+    .container > section {
+        width: auto;
+    }
+}
+
+

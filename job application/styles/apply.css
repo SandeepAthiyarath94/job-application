@@ -1,0 +1,67 @@
+/*
+filename: Karthick Senthil
+Author: Karthick Senthil
+created: 29/03/2019
+last Modified: 29/03/2019
+description: Assignment 1 styles. For about page;
+*/
+
+legend {
+    text-transform: uppercase;
+    font-family: 'Germania One', cursive;
+    color: #478e56;
+}
+
+form {
+    margin: 30px auto;
+    max-width: 570px;
+}
+
+h2 {
+    text-align: center;
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 30px;
+}
+
+ #buttons input[type="reset"] {
+    color: #478e56;
+    font-size: 20px;
+    border: 1px solid #478e56;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 20px 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+#buttons input[type=submit] {
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #478e56;
+    border-radius: 10px;
+    padding: 5px 20px;
+    margin: 20px 5px;
+    background-color: #478e56;
+    cursor: pointer;
+}
+
+input[type=text], textarea {
+    border: 1px solid #478e56;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input:focus, textarea {
+    outline: none !important;
+}
+
+.error {
+    border: 1px solid #ff0000 !important;
+}
+
+.errmsg {
+    color: #ff0000;
+}
